@@ -1,5 +1,5 @@
 Package.describe({
-  name: "mizzao:turkserver",
+  name: "nalinc:turkserver",
   summary: "Web-based, real-time behavioral studies and experiments",
   version: "0.5.0",
   git: "https://github.com/TurkServer/turkserver-meteor.git"
@@ -156,7 +156,7 @@ Package.onTest(function (api) {
   api.use('mizzao:partitioner');
   api.use('mizzao:timesync');
 
-  api.use("mizzao:turkserver"); // This package!
+  api.use("nalinc:turkserver"); // This package!
 
   api.addFiles("tests/display_fix.css");
 
