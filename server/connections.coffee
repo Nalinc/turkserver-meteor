@@ -245,7 +245,7 @@ Meteor.methods
     if (token = Accounts._getLoginToken(this.connection.id))
       # This $pulls tokens from services.resume.loginTokens, and should work
       # in the same way that Accounts._expireTokens effects cleanup.
-       Meteor.setTimeout ->
+      Meteor.setTimeout ->
         Accounts.destroyToken(userId, token)
       , 1000
 

@@ -2,7 +2,7 @@ Package.describe({
   name: "nalinc:turkserver",
   summary: "Web-based, real-time behavioral studies and experiments",
   version: "0.5.0",
-  git: "https://github.com/TurkServer/turkserver-meteor.git"
+  git: "https://github.com/nalinc/turkserver-meteor.git"
 });
 
 Npm.depends({
